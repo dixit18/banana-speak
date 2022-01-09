@@ -1,0 +1,53 @@
+:root{
+    --primary-color : #F2C94C;
+    --black-color:#333333;
+}
+
+
+body{
+    margin: 0px;
+    font-family: cursive;
+  }
+    textarea{
+
+      width: 80%;
+      height: 10vh;
+      margin: 1rem;
+      display: block;
+      padding: 1rem;
+    }
+    #output{
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+
+    }
+    .container {
+      background-color: var(--primary-color);
+      color: #333333;;
+      padding: 2rem;
+    }
+    .header h1{
+      text-align: center;
+      font-size: larger;
+    }
+    #btn-translate{
+        border: none;
+        background-color: var(--primary-color);
+        padding: 1rem 2rem;
+        margin: 1rem 0rem;
+        font-size: large;
+        font-family: 'kalam','cursive';
+        margin-left: 2rem;
+        border-radius: 1rem;
+        
+
+    }
+    .translate-output-text{
+        margin: 1rem;
+    }
+    .footer-heading{
+        text-align: center;
+    }
